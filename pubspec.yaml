@@ -1,0 +1,45 @@
+name: animana
+description: Anime app
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  youtube_player_flutter: ^8.0.0
+  cupertino_icons: ^1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/Animana_Logo.png"
+  adaptive_icon_background: "#1919"
+  adaptive_icon_foreground: "assets/images/Animana_Logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/Animana_logo.png
+
+  fonts:
+    - family: ZenDots
+      fonts:
+        - asset: assets/fonts/ZenDots-Regular.ttf
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-VariableFont_wght.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/RobotoMono-Regular.ttf
